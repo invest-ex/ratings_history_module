@@ -47,13 +47,17 @@ The ratings and history module supports CRUD operations:
 
 | Endpoint                       | Type   | Operation                                                    |
 |--------------------------------|--------|--------------------------------------------------------------|
-| `/api/:stockTicker`            | GET    | Retrieve analyst reviews with recs to buy, hold or sell      |
-
+| `/api/:stockTicker/ratings`    | GET    | Retrieve analyst reviews                                     |
+| `/api/:stockTicker/ratings`    | POST   | Add analyst reviews                                          |
+| `/api/:stockTicker/ratings`    | PATCH  | Update analyst reviews                                       |
+| `/api/:stockTicker/ratings`    | DELETE | Delete analyst reviews                                       |
 
 ### Purchase History
 
 | Endpoint                       | Type   | Operation                                                    |
 |--------------------------------|--------|--------------------------------------------------------------|
-| `/api/stock/:stockID/history`  | GET    | Retrieve a record of user past purchases of stock            |
+| `/api/:stockTicker/history`    | GET    | Retrieve a record of user past purchases                     |
+| `/api/:stockTicker/history`    | POST   | Add record of past purchases                                 |
+| `/api/:stockTicker/history`    | PATCH  | Update record of past purchases                              |
+| `/api/:stockTicker/history`    | DELETE | Delete record of past purchases                              |
 
-*** More Routes On the Way! ***
