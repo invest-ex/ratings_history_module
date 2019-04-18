@@ -19,7 +19,7 @@ Note: for a proxy server, the compressed webpack bundles (bundle.js.gz and bundl
 
 ## Usage
 
-> View buy/hold/sell analyst ratings, history previous past purchases.
+> View buy/hold/sell analyst ratings, history past purchases.
 
 ## Requirements
 
