@@ -40,8 +40,8 @@ npm start (node index.js not nodemon index.js)
 ## Available API Routes
 
 The ratings and history module supports CRUD operations:
-* Analyst Reviews (#Analyst Reviews)
-* Purchase History (#Purchase History)
+* Analyst Reviews
+* Purchase History
 
 ### Analyst Reviews
 
