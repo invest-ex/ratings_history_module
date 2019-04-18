@@ -1,4 +1,4 @@
-# ratings_history_module
+# Ratings_History_Module
 ## Description
 The Analyst Ratings module displays data and expert recommendations in an accessible and user-friendly UI. The Purchase History module renders a dynamic and individually expanding list of past purchases. As a potential customer, I want to be able to easily and confidently determine whether I should buy, hold, or sell. As an existing customer, I want to see my history of past purchases so that I can see that I am making good purchasing decisions and/or improve future decisions. 
 
@@ -19,8 +19,7 @@ Note: for a proxy server, the compressed webpack bundles (bundle.js.gz and bundl
 
 ## Usage
 
-> View buy/hold/sell analyst ratings
-> View history previous past purchases
+> View buy/hold/sell analyst ratings, history previous past purchases.
 
 ## Requirements
 
@@ -57,4 +56,4 @@ The ratings and history module supports CRUD operations:
 |--------------------------------|--------|--------------------------------------------------------------|
 | `/api/stock/:stockID/history`  | GET    | Retrieve a record of user past purchases of stock            |
 
-*** More Routes On the Way! ****
+*** More Routes On the Way! ***
